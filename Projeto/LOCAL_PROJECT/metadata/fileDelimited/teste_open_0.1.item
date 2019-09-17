@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_8Vl6UJETEemCYJ6yJc9lrw" name="teste_open" dataPackage="_8VsoAJETEemCYJ6yJc9lrw" Server="Localhost 127.0.0.1" FilePath="/Users/leandro.mendes/Accenture/Raizen/PMWEB_FILES/OPEN/80464_OPEN_20190601_145809.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8VsoAJETEemCYJ6yJc9lrw" name="default" dataManager="_8Vl6UJETEemCYJ6yJc9lrw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8VsoAZETEemCYJ6yJc9lrw" id="_moWx0JETEemCYJ6yJc9lrw" label="metada_open">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoApETEemCYJ6yJc9lrw" label="_EVENT_TYPE_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoA5ETEemCYJ6yJc9lrw" label="_ACCOUNT_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoBJETEemCYJ6yJc9lrw" label="_LIST_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoBZETEemCYJ6yJc9lrw" label="_RIID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoBpETEemCYJ6yJc9lrw" label="_CUSTOMER_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoB5ETEemCYJ6yJc9lrw" label="_EVENT_CAPTURED_DT_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoCJETEemCYJ6yJc9lrw" label="_EVENT_STORED_DT_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoCZETEemCYJ6yJc9lrw" label="_CAMPAIGN_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoCpETEemCYJ6yJc9lrw" label="_LAUNCH_ID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoC5ETEemCYJ6yJc9lrw" label="_EMAIL_FORMAT_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoDJETEemCYJ6yJc9lrw" label="_USER_AGENT_STRING_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoDZETEemCYJ6yJc9lrw" label="_OPERATING_SYSTEM_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoDpETEemCYJ6yJc9lrw" label="_BROWSER_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoD5ETEemCYJ6yJc9lrw" label="_BROWSER_TYPE_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8VsoEJETEemCYJ6yJc9lrw" label="Column14" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

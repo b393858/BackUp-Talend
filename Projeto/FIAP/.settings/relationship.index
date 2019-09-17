@@ -1,0 +1,257 @@
+[ {
+  "baseItem" : {
+    "id" : "_9-kJANg9EemgP_e2hbmRpQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - COUNTRIES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - DEPARTMENTS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - EMPLOYEES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - JOBS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - JOB_HISTORY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - LOCATIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - REGIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UT8GwNjGEemgP_e2hbmRpQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_LitXINjFEemgP_e2hbmRpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - COUNTRIES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - JOBS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - LOCATIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - REGIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gUOJINjDEemgP_e2hbmRpQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_LitXINjFEemgP_e2hbmRpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_LitXINjFEemgP_e2hbmRpQ - colecaoBandas",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xffQYNjFEemgP_e2hbmRpQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - COUNTRIES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - DEPARTMENTS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - JOBS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - JOB_HISTORY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_nwXucNi_EemgP_e2hbmRpQ - LOCATIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

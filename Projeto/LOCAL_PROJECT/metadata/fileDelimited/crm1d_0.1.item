@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_fpf6sJlVEemHSoVnHbZRag" name="crm1d" dataPackage="_fpf6sZlVEemHSoVnHbZRag" Server="Localhost 127.0.0.1" FilePath="/Users/leandro.mendes/Accenture/Raizen/tmp-crm/csvfromapi.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fpf6sZlVEemHSoVnHbZRag" name="default" dataManager="_fpf6sJlVEemHSoVnHbZRag">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fpf6splVEemHSoVnHbZRag" id="_7-M74JlUEemHSoVnHbZRag" label="metadata_CRM_RAW">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6s5lVEemHSoVnHbZRag" label="_Date_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6tJlVEemHSoVnHbZRag" label="_Campaign_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6tZlVEemHSoVnHbZRag" label="_Date_Year_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6tplVEemHSoVnHbZRag" label="_Date_Month_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6t5lVEemHSoVnHbZRag" label="_Date_Week_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6uJlVEemHSoVnHbZRag" label="_ExtCampaignID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6uZlVEemHSoVnHbZRag" label="_FolderName_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6uplVEemHSoVnHbZRag" label="_LaunchDate_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6u5lVEemHSoVnHbZRag" label="_LaunchID_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6vJlVEemHSoVnHbZRag" label="_LaunchTime_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6vZlVEemHSoVnHbZRag" label="_MarketingProgram_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6vplVEemHSoVnHbZRag" label="_MarketingStrategy_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6v5lVEemHSoVnHbZRag" label="_ProgramName_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6wJlVEemHSoVnHbZRag" label="_ProgramStage_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6wZlVEemHSoVnHbZRag" label="_Segment_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6wplVEemHSoVnHbZRag" label="_Subject_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6w5lVEemHSoVnHbZRag" label="_ReturnPath_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6xJlVEemHSoVnHbZRag" label="_Classification_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6xZlVEemHSoVnHbZRag" label="_Sent_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6xplVEemHSoVnHbZRag" label="_Opens_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6x5lVEemHSoVnHbZRag" label="_Clicks_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6yJlVEemHSoVnHbZRag" label="_Conversions_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6yZlVEemHSoVnHbZRag" label="_Delivered_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6yplVEemHSoVnHbZRag" label="_Distribution_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6y5lVEemHSoVnHbZRag" label="_HardBounces_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6zJlVEemHSoVnHbZRag" label="_OtherUndeliverable_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6zZlVEemHSoVnHbZRag" label="_PossibleBlock_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6zplVEemHSoVnHbZRag" label="_SoftBounces_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf6z5lVEemHSoVnHbZRag" label="_SpamComplaintRate_" length="500" precision="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf60JlVEemHSoVnHbZRag" label="_TotalClicks_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf60ZlVEemHSoVnHbZRag" label="_TotalOpens_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf60plVEemHSoVnHbZRag" label="_TotalOrders_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf605lVEemHSoVnHbZRag" label="_SpamComplaints_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf61JlVEemHSoVnHbZRag" label="_Undeliverable_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf61ZlVEemHSoVnHbZRag" label="_Clicks_Desktop_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf61plVEemHSoVnHbZRag" label="_Clicks_Mobile_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf615lVEemHSoVnHbZRag" label="_Clicks_Other_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf62JlVEemHSoVnHbZRag" label="_UniqueConversion_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf62ZlVEemHSoVnHbZRag" label="_Opens_Desktop_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf62plVEemHSoVnHbZRag" label="_Opens_Mobile_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf625lVEemHSoVnHbZRag" label="_Opens_Other_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fpf63JlVEemHSoVnHbZRag" label="_Unsubscribes_" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

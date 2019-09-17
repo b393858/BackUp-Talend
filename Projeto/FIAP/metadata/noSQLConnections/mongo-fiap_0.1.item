@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_Li3vMNjFEemgP_e2hbmRpQ" name="mongo-fiap" label="mongo-fiap" dataPackage="_OQGxgNjFEemgP_e2hbmRpQ _OQGxgdjFEemgP_e2hbmRpQ _OQGxgtjFEemgP_e2hbmRpQ _OQGxg9jFEemgP_e2hbmRpQ" dbType="MONGODB">
+    <attributes xmi:id="_azZgsNjKEemgP_e2hbmRpQ" key="DB_VERSION" value="MONGODB_3_2_X"/>
+    <attributes xmi:id="_azZgsdjKEemgP_e2hbmRpQ" key="HOST" value="localhost"/>
+    <attributes xmi:id="_azZgstjKEemgP_e2hbmRpQ" key="PORT" value="27017"/>
+    <attributes xmi:id="_azZgs9jKEemgP_e2hbmRpQ" key="DATABASE" value="mongobands"/>
+    <attributes xmi:id="_azZgtNjKEemgP_e2hbmRpQ" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_azZgtdjKEemgP_e2hbmRpQ" key="USERNAME" value=""/>
+    <attributes xmi:id="_azZgttjKEemgP_e2hbmRpQ" key="PASSWORD" value=""/>
+    <attributes xmi:id="_azZgt9jKEemgP_e2hbmRpQ" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_azaHwNjKEemgP_e2hbmRpQ" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_OQGxgNjFEemgP_e2hbmRpQ" name="admin" dataManager="_Li3vMNjFEemgP_e2hbmRpQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_OQGxgdjFEemgP_e2hbmRpQ" name="config" dataManager="_Li3vMNjFEemgP_e2hbmRpQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_OQGxgtjFEemgP_e2hbmRpQ" name="local" dataManager="_Li3vMNjFEemgP_e2hbmRpQ"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_OQGxg9jFEemgP_e2hbmRpQ" name="mongobands" dataManager="_Li3vMNjFEemgP_e2hbmRpQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_OQGxhNjFEemgP_e2hbmRpQ" name="colecaoBandas" id="_NZzboNjFEemgP_e2hbmRpQ" label="colecaoBandas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYkNjFEemgP_e2hbmRpQ" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYkdjFEemgP_e2hbmRpQ" name="nome" label="nome" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYktjFEemgP_e2hbmRpQ" name="banda" label="banda" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYk9jFEemgP_e2hbmRpQ" name="instrumento" label="instrumento" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYlNjFEemgP_e2hbmRpQ" name="nascimento" label="nascimento" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OQHYldjFEemgP_e2hbmRpQ" name="periodo" label="periodo" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

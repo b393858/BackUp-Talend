@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mydIoMthEemHVY9XHG-gCw" name="linx" dataPackage="_mydIocthEemHVY9XHG-gCw" Server="Localhost 127.0.0.1" FilePath="/Users/leandro.mendes/Downloads/fiap/part-00098-a05a0d4b-2b10-4dbb-b6ea-2eec0a3371f7-c000.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mydIocthEemHVY9XHG-gCw" name="default" dataManager="_mydIoMthEemHVY9XHG-gCw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mydIosthEemHVY9XHG-gCw" id="_Y52aEMthEemHVY9XHG-gCw" label="linx">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIo8thEemHVY9XHG-gCw" label="encrypted_domain" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIpMthEemHVY9XHG-gCw" label="encrypted_cnpj" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIpcthEemHVY9XHG-gCw" label="encrypted_saleid" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIpsthEemHVY9XHG-gCw" label="dateTime" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIp8thEemHVY9XHG-gCw" label="productTotal" length="999" precision="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIqMthEemHVY9XHG-gCw" label="prod_fullname" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIqcthEemHVY9XHG-gCw" label="encrypted_buyer_cpf" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mydIqsthEemHVY9XHG-gCw" label="encrypted_buyer_cnpj" length="999" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

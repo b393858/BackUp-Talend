@@ -1,0 +1,40 @@
+[WARNING] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building LOCAL_PROJECT Get_file_CRM-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for log4j:log4j:jar:1.2.17 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ Get_file_CRM ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ Get_file_CRM ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ Get_file_CRM ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ Get_file_CRM ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ Get_file_CRM ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Get_file_CRM ---
+[INFO] Building jar: /Applications/Talend/workspace/LOCAL_PROJECT/poms/jobs/process/get_file_crm_0.1/target/get_file_crm_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ Get_file_CRM ---
+[INFO] Reading assembly descriptor: /Applications/Talend/workspace/LOCAL_PROJECT/poms/jobs/process/get_file_crm_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for log4j:log4j:jar:1.2.17
+[INFO] Building zip: /Applications/Talend/workspace/LOCAL_PROJECT/poms/jobs/process/get_file_crm_0.1/target/get_file_crm_0_1.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.176 s
+[INFO] Finished at: 2019-06-28T02:34:28-03:00
+[INFO] Final Memory: 14M/309M
+[INFO] ------------------------------------------------------------------------

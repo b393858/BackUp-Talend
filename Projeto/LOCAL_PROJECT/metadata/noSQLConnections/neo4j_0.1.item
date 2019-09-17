@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendNoSQLMetadata:NoSQLConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmi:id="_OrI80MQuEemUE-f2tAZ_DA" name="neo4j" label="neo4j" dbType="NEO4J">
+  <attributes xmi:id="_OrJj4MQuEemUE-f2tAZ_DA" key="REMOTE_SERVER" value="true"/>
+  <attributes xmi:id="_OrJj4cQuEemUE-f2tAZ_DA" key="DATABASE_PATH" value=""/>
+  <attributes xmi:id="_OrJj4sQuEemUE-f2tAZ_DA" key="SERVER_URL" value="bolt://localhost:37687"/>
+  <attributes xmi:id="_OrJj48QuEemUE-f2tAZ_DA" key="DB_VERSION" value="NEO4J_3_2_X"/>
+  <attributes xmi:id="_OrJj5MQuEemUE-f2tAZ_DA" key="SET_USERNAME" value="false"/>
+  <attributes xmi:id="_OrJj5cQuEemUE-f2tAZ_DA" key="USERNAME" value="neo4j"/>
+  <attributes xmi:id="_OrJj5sQuEemUE-f2tAZ_DA" key="PASSWORD" value="OD2R37AKXVo="/>
+</TalendNoSQLMetadata:NoSQLConnection>
